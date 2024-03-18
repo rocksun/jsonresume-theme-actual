@@ -1,5 +1,5 @@
 {
-  "name": "jsonresume-theme-actual",
+  "name": "jsonresume-theme-actualzh",
   "main": "index.js",
   "files": [
     "/assets",
@@ -10,7 +10,7 @@
   "author": "David Carvajal",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davcd/jsonresume-theme-actual"
+    "url": "https://github.com/rocksun/jsonresume-theme-actual"
   },
   "scripts": {
     "create-html": "resume export public/resume.html --format html --theme .",
