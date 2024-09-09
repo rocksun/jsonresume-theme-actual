@@ -61,9 +61,9 @@ const arrayToPhrase = (array) => {
   if (a.length === 1) {
     str = a[0]
   } else if (a.length === 2) {
-    str = a.join(' and ')
+    str = a.join(' | ')
   } else if (a.length > 2) {
-    str = a.slice(0, -1).join(', ') + ' and ' + a.slice(-1)
+    str = a.slice(0, -1).join(', ') + ' | ' + a.slice(-1)
   }
 
   return str.charAt(0).toUpperCase() + str.slice(1)
